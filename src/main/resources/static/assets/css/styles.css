@@ -1,0 +1,230 @@
+/*hero container nav bar*/
+
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.navbar {
+    height: 61px!important;
+    background: #ffffff!important;
+    color: rgb(0,0,0)!important;
+    padding: .5rem 1rem;
+}
+
+.hero-container-img{
+    width: 120px;
+    text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.header-blue .navbar .navbar-collapse span .login {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.header-blue .navbar .navbar-collapse span .login:hover {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.header-blue .action-button, .header-blue .action-button:not(.disabled):active {
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 40px;
+    color: rgba(0, 0, 0, 1);
+    box-shadow: none;
+    text-shadow: none;
+    padding: .3rem .8rem;
+    background: transparent;
+    transition: background-color 0.25s;
+    outline: none;
+}
+
+.header-blue .action-button:hover {
+    color: #ffffff !important;
+    background-color: #000000 !important;
+}
+
+/*login css*/
+.loginheader{
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(0,0,0);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.login-clean {
+
+    padding: 80px 0;
+    height: 100%;
+}
+
+.login-clean form {
+    align-content: center;
+    max-width: 320px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 4px;
+    color: #000000;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.16);
+}
+
+.login-clean .illustration {
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 100px;
+}
+
+.login-clean form .form-control {
+    background: #f4f4f4;
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 8px;
+    height: 42px;
+}
+
+.login-clean form .btn-primary {
+    background: rgb(44,44,44);
+    align-self: center;
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+    outline: none !important;
+}
+
+.login-btn{
+margin-top: 20px;
+
+}
+
+.loginbtn{
+    width: 100%;
+    border-radius: 25px;
+
+}
+.loginbtn:hover{
+    color: #000000!important;
+    background-color: #ffffff!important;
+    border-color: #101010!important;
+}
+.login-clean form .btn-primary:hover, .login-clean form .btn-primary:active {
+    background: rgba(0,0,0,0.75);
+}
+
+.login-clean form .btn-primary:active {
+    transform: translateY(1px);
+}
+
+.login-clean form .forgot:hover, .login-clean form .forgot:active {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.login-logo {
+    width: 110px;
+}
+/*register user*/
+.signup-form{
+    width: 390px;
+    margin: 30px auto;
+}
+.signup-form form{
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #fff;
+    /*box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);*/
+    padding: 0px 30px;
+}
+.signup-form h2 {
+    color: #333;
+    margin-top: 0;
+}
+.signup-form hr {
+    margin: 0 -30px 20px;
+}
+.signup-form .form-group{
+    margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"]{
+    margin-top: 3px;
+}
+.signup-form .row div:first-child{
+    padding-right: 10px;
+}
+.signup-form .row div:last-child{
+    padding-left: 10px;
+}
+.signup-form .btn{
+    width: 100%;
+    border-radius: 25px;
+}
+.signup-form .btn:hover{
+    background: #ffffff !important;
+    outline: black;
+    color: black;
+}
+.card-title{
+    padding-bottom: 12px;
+}
+.signup-form a{
+    color: #fff;
+    text-decoration: underline;
+}
+.signup-form a:hover{
+    text-decoration: none;
+}
+.signup-form form a{
+    color: #3598dc;
+    text-decoration: none;
+}
+.signup-form form a:hover{
+    text-decoration: underline;
+}
+.signup-form .hint-text {
+    padding-bottom: 15px;
+    text-align: center;
+}
+.adduser{
+    width: 100%;
+}
+.itembtn {
+    width: 50%;
+    border-radius: 25px;
+
+}
+.itembtn:hover{
+    color: #000000!important;
+    background-color: #ffffff!important;
+    border-color: #101010!important;
+}
+
+.red{
+    color: #de4231;
+}
+body{
+    background-color: #eaeaea !important;
+}
+
+
+
+
+
+
+
+
